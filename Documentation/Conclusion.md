@@ -1,0 +1,3 @@
+6. Conclusion
+
+The system successfully recommends suitable engineering colleges by using historical cutoff patterns, Utility Score ranking, minimum cutoff feasibility, and preference-based filtering. The addition of cosine-similarity-based evaluation and Flask UI makes the model practical, accurate, and user-friendly. This approach reduces manual searching effort and provides fast, data-driven guidance to students during the admission process.
