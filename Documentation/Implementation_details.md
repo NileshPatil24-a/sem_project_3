@@ -18,8 +18,12 @@ Key Tasks Performed:
 4.Removed rows with missing college name, branch, or cutoff percentiles.
 
 Snapshot:
+
 ![imported libraries](image.png)
+
+
 ![data cleaning](image-1.png)
+
 
 df = pd.read_csv('Copy of MHTCET_Colleges_Finall_sheet(2).csv')
 
@@ -49,7 +53,10 @@ Output:
 A sorted table of best-performing college-branch combinations based on historical data.
 
 Snapshot:
+
 ![ulitiy function](image-2.png)
+
+
 
 utility_df[['college_name','branch_name','Utility_Score','Min_Cutoff']].head()
 
@@ -91,7 +98,11 @@ If no colleges match, closest percentile options are suggested using:
 Score_Difference = abs(Utility_Score - student_percentile)
 
 SnapShot :
+
+
 ![Recommendation Engine](image-3.png)
+
+
 
 🔹 Module 4: Accuracy Evaluation (Hit Rate Calculation)
 
@@ -111,7 +122,9 @@ Hit Rate (%) = Correct Predictions / Total Students × 100
 
 Example Output:
 
-Hit Rate: 63.00%
+Hit Rate: 18.00%
+
+
 ![![matched colleges out of 100](image-5.png)](image-4.png)
 
 

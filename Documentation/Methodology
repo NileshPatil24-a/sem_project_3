@@ -10,7 +10,7 @@ The methodology focuses on collecting, preprocessing, analyzing, and recommendin
 
 1.Data Collection
 
-College details such as courses offered, location, ranking, admission criteria are collected from official college websites, educational portals, and government databases.
+College details such as courses offered, location,  admission criteria are collected from official college websites, educational portals, and government databases.
 
 Data is stored in structured formats like CSV or databases for easy processing.
 
@@ -35,7 +35,7 @@ Identify key features affecting recommendations:
 
 Student preferences: course, location.
 
-Assign weights to features based on importance (e.g., Course Match = 0.4, Ranking = 0.3, Location Preference = 0.1).
+Assign weights to features based on importance (e.g., Course Match = 0.4 adn  Location Preference = 0.1).
 
 
 4.Recommendation Algorithm
@@ -44,18 +44,15 @@ Content-Based Filtering: Matches student preferences with college attributes.
 
 Collaborative Filtering: Recommends colleges preferred by similar students.
 
-Scoring & Ranking: Each college is assigned a total score using a weighted formula.
 
 Example:
 
-Score = (0.4 * Course Match) + (0.3 * Ranking) +  (0.1 * Location Preference)
+Score = (0.4 * Course Match)  +  (0.1 * Location Preference)
 
 
 
 5.Evaluation & Validation
-
-Use metrics such as precision, recall, and F1-score to measure accuracy.
-
+ calculate the MSE and MAE
 Validate recommendations with historical admission data or student feedback.
 
 
