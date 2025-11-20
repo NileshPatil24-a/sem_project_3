@@ -148,5 +148,5 @@ Backend executes your recommend_colleges() function.
 UI Snapshot:
 
 
-![alt text](<WhatsApp Image 2025-11-20 at 06.37.11_f8df443b.jpg>)
+![alt text](<C:\Users\Lenovo\Desktop\sem project 4\sem_project_3\Documentation\UI.jpg>)
 
