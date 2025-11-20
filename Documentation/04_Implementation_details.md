@@ -148,5 +148,5 @@ Backend executes your recommend_colleges() function.
 UI Snapshot:
 
 
-![alt text](<C:\Users\Lenovo\Desktop\sem project 4\sem_project_3\Documentation\UI.jpg>)
+![alt text](UI.jpg)
 
