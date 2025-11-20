@@ -96,3 +96,4 @@ If a student enters MHT-CET percentile = 88, Category = OBC, Branch = IT, Locati
                                              | Recommended        |
                                              | Colleges Display   |
                                              +--------------------+
+

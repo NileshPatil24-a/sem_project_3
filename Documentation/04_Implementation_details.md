@@ -19,10 +19,10 @@ Key Tasks Performed:
 
 Snapshot:
 
-![imported libraries](image.png)
+![imported libraries](Imported LIbraries.png)
 
 
-![data cleaning](image-1.png)
+![data cleaning](Data Cleaning.png)
 
 
 df = pd.read_csv('Copy of MHTCET_Colleges_Finall_sheet(2).csv')
@@ -54,7 +54,7 @@ A sorted table of best-performing college-branch combinations based on historica
 
 Snapshot:
 
-![ulitiy function](image-2.png)
+![ulitiy function](Utility Function.png)
 
 
 
@@ -100,7 +100,7 @@ Score_Difference = abs(Utility_Score - student_percentile)
 SnapShot :
 
 
-![Recommendation Engine](image-3.png)
+![Recommendation Engine](Recommendation Engine.png)
 
 
 
@@ -125,7 +125,7 @@ Example Output:
 Hit Rate: 18.00%
 
 
-![![matched colleges out of 100](image-5.png)](image-4.png)
+![![matched colleges out of 100](Matched college out of 100 in example.png)](image-4.png)
 
 
 This confirms the Min Cutoff + Utility Score model helps achieve good accuracy.
@@ -149,4 +149,6 @@ UI Snapshot:
 
 
 ![alt text](UI.jpg)
+
+
 
