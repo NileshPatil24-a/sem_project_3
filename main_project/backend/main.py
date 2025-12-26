@@ -5,7 +5,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import re
 
+
 app = Flask(__name__)
+
 
 # Load the dataset
 try:
@@ -24,6 +26,7 @@ except:
 
 def preprocess_text(text):
     """Preprocess text for matching"""
+    
     if pd.isna(text):
         return ""
     return re.sub(r'[^\w\s]', ' ', str(text).lower())
@@ -77,7 +80,7 @@ def get_colleges():
             'colleges': colleges
         })
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        return jsonify({'error': str(e)}), 500 
 
 @app.route('/health', methods=['GET'])
 def health_check():
